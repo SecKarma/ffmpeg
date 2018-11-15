@@ -1,5 +1,4 @@
 FROM debian:stable
-MAINTAINER Joshua Gardner mellowcellofellow@gmail.com
 
 RUN apt-get update && \
     apt-get -qqy install --no-install-recommends \
